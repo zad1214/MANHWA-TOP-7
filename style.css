@@ -1,22 +1,19 @@
 body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    background-color: #111;
-    color: #fff;
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('https://i.imgur.com/Zf3BvDJ.jpeg'); /* خلفية مانهوات */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  color: white;
 }
-header, footer {
-    background-color: #222;
-    padding: 10px;
-    text-align: center;
-}
-main {
-    padding: 20px;
-}
-a {
-    color: #00ccff;
-    text-decoration: none;
-}
-a:hover {
-    text-decoration: underline;
+
+h1 {
+  text-align: center;
+  padding: 20px;
+  background-color: rgba(0, 0, 0, 0.6);
+  border-radius: 12px;
+  width: fit-content;
+  margin: 20px auto;
 }
