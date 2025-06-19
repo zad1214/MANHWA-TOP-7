@@ -3,7 +3,36 @@ body {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  color: white;
-  font-family: Arial, sans-serif;
   min-height: 100vh;
+  margin: 0;
+  padding: 0;
+  color: white;
+  font-family: 'Arial', sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+}
+
+.logo {
+  font-size: 60px;
+  font-weight: bold;
+  color: #ffffff;
+  text-shadow: 2px 2px 10px #000;
+  margin-bottom: 20px;
+  letter-spacing: 3px;
+}
+
+.logo span {
+  color: #00ffaa;
+  text-shadow: 2px 2px 10px #007755;
+}
+
+.intro {
+  font-size: 20px;
+  background-color: rgba(0, 0, 0, 0.4);
+  padding: 10px 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px black;
 }
