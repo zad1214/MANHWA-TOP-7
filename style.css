@@ -1,43 +1,20 @@
-body {
-  margin: 0;
-  padding: 0;
-  background-image: url('elden-bg.jpg');
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
-  font-family: 'Arial', sans-serif;
-  color: white;
-  min-height: 100vh;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-
-.hero {
-  text-align: center;
-  background-color: rgba(0, 0, 0, 0.6);
-  padding: 40px;
-  border-radius: 20px;
-  box-shadow: 0 0 20px #000;
-}
-
-.logo {
-  font-size: 64px;
-  font-weight: bold;
+.enter-btn {
+  display: inline-block;
+  margin-top: 30px;
+  padding: 15px 30px;
+  background: rgba(0, 255, 170, 0.2);
+  border: 2px solid #00ffaa;
   color: #ffffff;
-  text-shadow: 0 0 15px #00ffcc, 0 0 5px #000;
-  margin: 0;
-  letter-spacing: 5px;
+  font-size: 18px;
+  text-decoration: none;
+  border-radius: 8px;
+  backdrop-filter: blur(4px);
+  transition: all 0.3s ease;
+  box-shadow: 0 0 10px #00ffaa;
 }
 
-.logo span {
-  color: #00ffaa;
-  text-shadow: 0 0 15px #00ffaa, 0 0 5px #007755;
-}
-
-.tagline {
-  font-size: 20px;
-  margin-top: 10px;
-  color: #dddddd;
-  text-shadow: 0 0 5px #000;
+.enter-btn:hover {
+  background: #00ffaa;
+  color: #000;
+  box-shadow: 0 0 20px #00ffaa, 0 0 10px #00ffaa;
 }
