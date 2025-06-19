@@ -1,93 +1,140 @@
 <!DOCTYPE html>
-<html lang="ar">
-  <head>
-    <meta charset="UTF-8" />
-    <title>MANHWA TOP 7</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <header class="hero">
-      <h1 class="logo">MANHWA <span>TOP 7</span></h1>
-      <p class="tagline">أفضل موقع للمانهوا المترجمة</p>
-   <a href="manhwa.html" class="enter-btn">دخول</a>
-    </header>
-  </body>
-</html>
-<!DOCTYPE html>
 <html lang="ar" dir="rtl">
 <head>
-  <meta charset="UTF-8">
-  <title>أفضل 7 مانهوا</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>أفضل 7 مانهوات مترجمة</title>
+  <link rel="stylesheet" href="style.css" />
   <style>
     body {
-      background-color: #121212;
+      margin: 0;
+      font-family: 'Tahoma', sans-serif;
+      background: url('assets/bg.jpg') no-repeat center center fixed;
+      background-size: cover;
       color: white;
-      font-family: Arial, sans-serif;
-      padding: 20px;
     }
+
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+      background-color: rgba(0,0,0,0.6);
+      border-radius: 20px;
+    }
+
     h1 {
       text-align: center;
+      font-size: 2.5em;
       margin-bottom: 40px;
     }
-    .grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-      gap: 20px;
+
+    .manhwa {
+      background: rgba(30, 30, 30, 0.85);
+      border-radius: 15px;
+      padding: 15px;
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      box-shadow: 0 0 10px rgba(0,255,255,0.2);
     }
-    .card {
-      background-color: #1e1e1e;
+
+    .manhwa img {
+      width: 100px;
+      height: 140px;
       border-radius: 10px;
-      overflow: hidden;
-      box-shadow: 0 4px 10px rgba(0,0,0,0.5);
-      text-align: center;
-    }
-    .card img {
-      width: 100%;
-      height: 300px;
       object-fit: cover;
     }
-    .card h3 {
-      margin: 10px 0;
+
+    .manhwa-info {
+      flex: 1;
     }
-    .badge {
+
+    .manhwa-title {
+      font-size: 1.5em;
+      font-weight: bold;
+      color: #00ffff;
+      margin-bottom: 5px;
+    }
+
+    .licensed {
       display: inline-block;
-      background-color: #4caf50;
+      padding: 4px 10px;
+      background: green;
       color: white;
-      padding: 4px 8px;
-      border-radius: 5px;
-      font-size: 0.8em;
+      border-radius: 6px;
+      font-size: 0.9em;
+      margin-top: 5px;
+    }
+
+    .desc {
+      font-size: 1em;
       margin-top: 5px;
     }
   </style>
 </head>
 <body>
+  <div class="container">
+    <h1>أفضل 7 مانهوات مترجمة</h1>
 
-  <h1>أفضل 7 مانهوا</h1>
-
-  <div class="grid">
-    <!-- مانهوا 1 -->
-    <div class="card">
-      <img src="https://example.com/image1.jpg" alt="Manhwa 1">
-      <h3>Solo Leveling</h3>
-      <span class="badge">مترخصة</span>
+    <div class="manhwa">
+      <img src="assets/solo-leveling.jpg" alt="Solo Leveling" />
+      <div class="manhwa-info">
+        <div class="manhwa-title">1. Solo Leveling</div>
+        <div class="desc">قصة صياد ضعيف يتحول إلى الأقوى بفضل نظام سري.</div>
+        <div class="licensed">مرخصة</div>
+      </div>
     </div>
 
-    <!-- مانهوا 2 -->
-    <div class="card">
-      <img src="https://example.com/image2.jpg" alt="Manhwa 2">
-      <h3>Omniscient Reader</h3>
+    <div class="manhwa">
+      <img src="assets/tower-of-god.jpg" alt="Tower of God" />
+      <div class="manhwa-info">
+        <div class="manhwa-title">2. Tower of God</div>
+        <div class="desc">رحلة تسلق برج غامض مليء بالمخاطر والمكافآت.</div>
+        <div class="licensed">مرخصة</div>
+      </div>
     </div>
 
-    <!-- مانهوا 3 -->
-    <div class="card">
-      <img src="https://example.com/image3.jpg" alt="Manhwa 3">
-      <h3>Tower of God</h3>
-      <span class="badge">مترخصة</span>
+    <div class="manhwa">
+      <img src="assets/the-beginning.jpg" alt="The Beginning After the End" />
+      <div class="manhwa-info">
+        <div class="manhwa-title">3. The Beginning After The End</div>
+        <div class="desc">ملك يُبعث في عالم سحري ليبدأ حياته من جديد بقوى عظيمة.</div>
+      </div>
     </div>
 
-    <!-- أكمل باقي المانهوا بنفس الشكل -->
+    <div class="manhwa">
+      <img src="assets/eleceed.jpg" alt="Eleceed" />
+      <div class="manhwa-info">
+        <div class="manhwa-title">4. Eleceed</div>
+        <div class="desc">شاب يكتشف قدرات خارقة بمساعدة قط سريع وساحر.</div>
+      </div>
+    </div>
+
+    <div class="manhwa">
+      <img src="assets/omniscient-reader.jpg" alt="Omniscient Reader" />
+      <div class="manhwa-info">
+        <div class="manhwa-title">5. Omniscient Reader</div>
+        <div class="desc">رجل يجد نفسه داخل رواية كان يقرأها، ويعرف كل شيء قادم.</div>
+        <div class="licensed">مرخصة</div>
+      </div>
+    </div>
+
+    <div class="manhwa">
+      <img src="assets/lookism.jpg" alt="Lookism" />
+      <div class="manhwa-info">
+        <div class="manhwa-title">6. Lookism</div>
+        <div class="desc">طالب ينتقل بين جسدين مختلفين ويواجه تحديات اجتماعية.</div>
+      </div>
+    </div>
+
+    <div class="manhwa">
+      <img src="assets/wind-breaker.jpg" alt="Wind Breaker" />
+      <div class="manhwa-info">
+        <div class="manhwa-title">7. Wind Breaker</div>
+        <div class="desc">قصة طالب دراجات يتحدى الآخرين ويواجه ماضيه.</div>
+      </div>
+    </div>
   </div>
-
 </body>
 </html>
-
